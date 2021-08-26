@@ -8,7 +8,7 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/variables.sh"
 
 echo
-printf "${COLOR_INFO}Hello $USER and welcome to $host...\n"
+printf "${COLOR_INFO}Hello $USER and welcome to $host\n"
 printf "${COLOR_VALUE}===========================================================\n"
 printf "${COLOR_INFO}${GA} Last system login	:${COLOR_VALUE} %s\n" "$lastlog"
 printf "${COLOR_INFO}${GA} System details	:${COLOR_VALUE} %s\n" "$uname | $distro |"
